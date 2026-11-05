@@ -1,1 +1,30 @@
-<!-- Habit Tracker - main page (code coming soon) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Habit Tracker</h1>
+        <p>Build good habits, one day at a time.</p>
+    </header>
+
+    <main>
+        <h2>My habits</h2>
+        <ul class="habits">
+            <li>Read 20 pages</li>
+            <li>Drink water</li>
+            <li>Walk 8k steps</li>
+        </ul>
+
+        <a class="button" href="/health">Check database</a>
+    </main>
+
+    <footer>
+        <p>Cloud Lab 2 - Azure Container Apps</p>
+    </footer>
+</body>
+</html>

@@ -2,7 +2,7 @@
 import os
 
 from dotenv import load_dotenv
-from flask import Flask
+from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
 
@@ -15,7 +15,7 @@ db = SQLAlchemy(app)
 
 @app.route("/")
 def index():
-    return "<h1>Habit tracker app</h1>"
+    return render_template("index.html")
 
 
 @app.route("/health")

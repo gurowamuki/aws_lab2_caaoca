@@ -1,1 +1,58 @@
-/* Habit Tracker styles (coming soon) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #4a7c59;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.habits {
+    list-style: none;
+    padding: 0;
+}
+
+.habits li {
+    padding: 12px;
+    margin-bottom: 8px;
+    background: #eef3ef;
+    border-left: 4px solid #4a7c59;
+    border-radius: 4px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background: #4a7c59;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background: #3a6347;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
